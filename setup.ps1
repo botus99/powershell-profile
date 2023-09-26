@@ -36,11 +36,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 #
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
-scoop install sudo
 
 # OMP Install
 #
-sudo scoop install oh-my-posh
+scoop install oh-my-posh
 
 # Font Install
 # Get all installed font families
@@ -71,7 +70,6 @@ if ($fontFamilies -notcontains "Mononoki Nerd Font") {
 # Powershell modules
 #
 Install-Module -Name PackageManagement -Repository PSGallery -Force
-Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 Install-Module -Name 7Zip4Powershell -Repository PSGallery -Force
 Install-Module -Name dockercompletion -Repository PSGallery -Force
 Install-Module -Name NuGet -Repository PSGallery -Force
