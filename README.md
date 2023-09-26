@@ -1,6 +1,14 @@
 # powershell-profile
 
-Inspired by...
+## ⚡ One Line Install (Elevated PowerShell Recommended)
+
+Execute the following command in an elevated PowerShell window to install the PowerShell profile:
+
+```
+irm "https://github.com/botus99/powershell-profile/raw/main/setup.ps1" | iex
+```
+
+## 🎨 Shamelessly inspired by...
 https://github.com/ChrisTitusTech/powershell-profile
 
 Things that I changed...
