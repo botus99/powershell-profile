@@ -68,7 +68,7 @@ if ($fontFamilies -notcontains "Mononoki Nerd Font") {
     Remove-Item -Path ".\Mononoki.zip" -Force
 }
 
-# Terminal Icons Install
+# Powershell modules
 #
 Install-Module -Name PackageManagement -Repository PSGallery -Force
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
