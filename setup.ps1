@@ -28,44 +28,81 @@ if (!(Test-Path -Path $PROFILE -PathType Leaf)) {
  }
 & $profile
 
-# Choco install
+# install Choco
 #
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
-# Scoop install
+# install Scoop
 #
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 irm get.scoop.sh | iex
 
-# OMP Install
+# install Scoop buckets
+#
+scoop bucket add ACooper81_scoop-apps
+scoop bucket add alkuzad_unxutils-separated
+scoop bucket add athrunsun
+scoop bucket add batkiz_backit
+scoop bucket add brave-simpletons_scoop-the-business
+scoop bucket add cc713_ownscoop
+scoop bucket add dango
+scoop bucket add DoveBoy_Apps
+scoop bucket add echo
+scoop bucket add emulators
+scoop bucket add extras
+scoop bucket add foosel
+scoop bucket add galaxy-integrations
+scoop bucket add games
+scoop bucket add gregwen_grewen-scoop
+scoop bucket add hoilc_scoop-lemon
+scoop bucket add hu3rror_scoop-muggle
+scoop bucket add huangnauh_carrot
+scoop bucket add HUMORCE_nuke
+scoop bucket add java
+scoop bucket add jetbrains
+scoop bucket add kkzzhizhou_scoop-zapps
+scoop bucket add KnotUntied_scoop-fonts
+scoop bucket add KnotUntied_scoop-knotuntied
+scoop bucket add lemon
+scoop bucket add main
+scoop bucket add naderi
+scoop bucket add nerd-fonts
+scoop bucket add nirsoft
+scoop bucket add nirsoft-alternative
+scoop bucket add nonportable
+scoop bucket add p8rdev_scoop-portableapps
+scoop bucket add php
+scoop bucket add php-bucket
+scoop bucket add pleiades
+scoop bucket add python
+scoop bucket add raresoft
+scoop bucket add rasa
+scoop bucket add retools
+scoop bucket add rivy_scoop-bucket
+scoop bucket add scoop-aoks
+scoop bucket add scoop-dev-apps
+scoop bucket add scoopet
+scoop bucket add snyk
+scoop bucket add spotify
+scoop bucket add sushi
+scoop bucket add sysinternals
+scoop bucket add TheRandomLabs
+scoop bucket add versions
+scoop bucket add wangzq
+scoop bucket add wholegale39_onetab
+scoop bucket add wsl
+scoop bucket add x-magic_scoop-bucket
+scoop bucket add yuanying1199
+scoop update
+
+# install Oh My Posh
 #
 scoop install oh-my-posh
 
-# Font Install
-# Get all installed font families
-[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
-$fontFamilies = (New-Object System.Drawing.Text.InstalledFontCollection).Families
-
-# Check if Mononoki Nerd Font is installed
-if ($fontFamilies -notcontains "Mononoki Nerd Font") {
-    
-    # Download and install Mononoki Nerd Font
-    $webClient = New-Object System.Net.WebClient
-    $webClient.DownloadFile("https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Mononoki.zip", ".\Mononoki.zip")
-
-    Expand-Archive -Path ".\Mononoki.zip" -DestinationPath ".\Mononoki" -Force
-    $destination = (New-Object -ComObject Shell.Application).Namespace(0x14)
-    Get-ChildItem -Path ".\Mononoki" -Recurse -Filter "*.ttf" | ForEach-Object {
-        If (-not(Test-Path "C:\Windows\Fonts\$($_.Name)")) {        
-            # Install font
-            $destination.CopyHere($_.FullName, 0x10)
-        }
-    }
-
-    # Clean up
-    Remove-Item -Path ".\Mononoki" -Recurse -Force
-    Remove-Item -Path ".\Mononoki.zip" -Force
-}
+# install Nerd Font 
+scoop install nerd-fonts/Mononoki-NF
+scoop install nerd-fonts/Mononoki-NF-Mono
+scoop install nerd-fonts/Mononoki-NF-Propo
 
 # Powershell modules
 #
