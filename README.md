@@ -12,7 +12,7 @@ irm "https://github.com/botus99/powershell-profile/raw/main/setup.ps1" | iex
 https://github.com/ChrisTitusTech/powershell-profile
 
 ## 🎨 Things that I changed...
-- added Scoop installation to suppliment Choco store
+- added Scoop to suppliment Choco package manager (WinGet is 💩)
 - changed Oh My Posh & Nerd Font installation to Scoop instead of Choco
 - added my prefered Powershell modules
 - changed font to Mononoki

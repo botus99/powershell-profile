@@ -12,12 +12,7 @@ set-alias sa "~/Documents/Powershell/updatemygoods.ps1"
 
 ### SHIMS ###
 set-alias chdman "~/scoop/apps/mame/current/chdman.exe"
-set-alias ffp "~/scoop/apps/firefox-noinstall/current/firefox.exe"
-set-alias firefox "~/scoop/apps/firefox/current/firefox.exe"
 set-alias lolcat "~/scoop/apps/rainbow/current/rainbow.exe"
-set-alias nicotine "~/scoop/apps/nicotine-plus/current/Nicotine+.exe"
-set-alias obsidian "~/scoop/apps/obsidian/current/Obsidian.exe"
-set-alias pmp "~/scoop/apps/plex-desktop/current/Plex.exe"
 set-alias pwsh "~/scoop/apps/powershell-preview/current/pwsh.exe"
 set-alias shutup10 "~/scoop/apps/shutup10/current/OOSU10.exe"
 set-alias vscode "~/scoop/apps/vscodium/current/VSCodium.exe"
