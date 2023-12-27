@@ -69,6 +69,6 @@ $env:POSH_DOCKER_ENABLED = $true
 #	STUFF I ADDED LATER		#
 #############################
 
-Invoke-Expression (&scoop-search --hook)
+Invoke-Expression (&sfsu hook)
 winfetch
 cpufetch
