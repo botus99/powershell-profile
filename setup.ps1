@@ -104,11 +104,14 @@ scoop install nerd-fonts/Mononoki-NF
 scoop install nerd-fonts/Mononoki-NF-Mono
 scoop install nerd-fonts/Mononoki-NF-Propo
 
+# install scoop-completion & dockercompletion
+scoop install scoop-completion
+scoop install dockercompletion
+
 # Powershell modules
 #
 Install-Module -Name PackageManagement -Repository PSGallery -Force
 Install-Module -Name 7Zip4Powershell -Repository PSGallery -Force
-Install-Module -Name dockercompletion -Repository PSGallery -Force
 Install-Module -Name NuGet -Repository PSGallery -Force
 Install-Module -Name Pester -Repository PSGallery -Force
 Install-Module -Name Pscx -Repository PSGallery -Force
@@ -124,7 +127,6 @@ Install-Module -Name psInlineProgress -Repository PSGallery -Force
 Install-Module -Name posh-docker -Repository PSGallery -Force
 Install-Module -Name posh-git -Repository PSGallery -Force
 Install-Module -Name posh-cargo -Repository PSGallery -Force
-Install-Module -Name scoop-completion -Repository PSGallery -Force
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 Install-Module -Name Update-AllPSModules -Repository PSGallery -Force
 Install-Module -Name z -Repository PSGallery -Force
