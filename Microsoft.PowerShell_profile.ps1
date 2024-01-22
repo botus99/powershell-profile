@@ -28,9 +28,6 @@ set-alias whereami pwd
 #        other crap			#
 #############################
 
-# Import-Module 7Zip4Powershell
-# Import-Module NuGet
-# Import-Module Pester
 Import-Module Pscx
 Import-Module PowerShellGet
 Import-Module PSEverything
@@ -44,7 +41,6 @@ Import-Module psInlineProgress
 # Import-Module posh-docker
 # Import-Module posh-git
 # Import-Module posh-cargo
-Import-Module scoop-completion
 Import-Module Terminal-Icons
 Import-Module Update-AllPSModules
 Import-Module z
