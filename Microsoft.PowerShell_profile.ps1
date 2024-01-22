@@ -58,7 +58,7 @@ set-psreadlineOption -colors @{ inlineprediction = "#8A0303"}
 #         PROMPT			#
 #############################
 
-oh-my-posh --init --shell pwsh --config "~/scoop/apps/oh-my-posh3/current/themes/me.json" | Invoke-Expression
+oh-my-posh --init --shell pwsh --config "~/scoop/apps/oh-my-posh/current/themes/me.json" | Invoke-Expression
 Enable-PoshTooltips
 Enable-PoshTransientPrompt
 $env:POSH_GIT_ENABLED = $true
