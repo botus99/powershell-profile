@@ -40,7 +40,7 @@ irm get.scoop.sh | iex
 # install Scoop buckets
 #
 scoop bucket add ACooper81_scoop-apps
-scoop bucket add alkuzad_unxutils-separated
+# scoop bucket add alkuzad_unxutils-separated
 scoop bucket add athrunsun
 scoop bucket add batkiz_backit
 scoop bucket add brave-simpletons_scoop-the-business
@@ -53,15 +53,15 @@ scoop bucket add extras
 scoop bucket add foosel
 scoop bucket add galaxy-integrations
 scoop bucket add games
-scoop bucket add gregwen_grewen-scoop
+# scoop bucket add gregwen_grewen-scoop
 scoop bucket add hoilc_scoop-lemon
-scoop bucket add hu3rror_scoop-muggle
-scoop bucket add huangnauh_carrot
-scoop bucket add HUMORCE_nuke
+# scoop bucket add hu3rror_scoop-muggle
+# scoop bucket add huangnauh_carrot
+# scoop bucket add HUMORCE_nuke
 scoop bucket add java
-scoop bucket add jetbrains
+# scoop bucket add jetbrains
 scoop bucket add kkzzhizhou_scoop-zapps
-scoop bucket add KnotUntied_scoop-fonts
+# scoop bucket add KnotUntied_scoop-fonts
 scoop bucket add KnotUntied_scoop-knotuntied
 scoop bucket add lemon
 scoop bucket add main
@@ -71,22 +71,22 @@ scoop bucket add nirsoft
 scoop bucket add nirsoft-alternative
 scoop bucket add nonportable
 scoop bucket add p8rdev_scoop-portableapps
-scoop bucket add php
-scoop bucket add php-bucket
-scoop bucket add pleiades
+# scoop bucket add php
+# scoop bucket add php-bucket
+# scoop bucket add pleiades
 scoop bucket add python
-scoop bucket add raresoft
-scoop bucket add rasa
+# scoop bucket add raresoft
+# scoop bucket add rasa
 scoop bucket add retools
-scoop bucket add rivy_scoop-bucket
-scoop bucket add scoop-aoks
-scoop bucket add scoop-dev-apps
+# scoop bucket add rivy_scoop-bucket
+# scoop bucket add scoop-aoks
+# scoop bucket add scoop-dev-apps
 scoop bucket add scoopet
 scoop bucket add snyk
-scoop bucket add spotify
-scoop bucket add sushi
-scoop bucket add sysinternals
-scoop bucket add TheRandomLabs
+# scoop bucket add spotify
+# scoop bucket add sushi
+# scoop bucket add sysinternals
+# scoop bucket add TheRandomLabs
 scoop bucket add versions
 scoop bucket add wangzq
 scoop bucket add wholegale39_onetab
