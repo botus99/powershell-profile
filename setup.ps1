@@ -115,7 +115,7 @@ Install-Module -Name 7Zip4Powershell -Repository PSGallery -Force
 Install-Module -Name NuGet -Repository PSGallery -Force
 Install-Module -Name Pester -Repository PSGallery -Force
 Install-Module -Name Pscx -Repository PSGallery -Force
-Install-Module -Name PowerShellGet -Repository PSGallery -Force
+# Install-Module -Name PowerShellGet -Repository PSGallery -Force
 Install-Module -Name PSEverything -Repository PSGallery -Force
 Install-Module -Name PSFzf -Repository PSGallery -Force
 Install-Module -Name PSFuzzySearch -Repository PSGallery -Force
@@ -124,9 +124,9 @@ Install-Module -Name PSColors -Repository PSGallery -Force
 Install-Module -Name PSWindowsUpdate -Repository PSGallery -Force
 Install-Module -Name PSWriteColor -Repository PSGallery -Force
 Install-Module -Name psInlineProgress -Repository PSGallery -Force
-Install-Module -Name posh-docker -Repository PSGallery -Force
-Install-Module -Name posh-git -Repository PSGallery -Force
-Install-Module -Name posh-cargo -Repository PSGallery -Force
+# Install-Module -Name posh-docker -Repository PSGallery -Force
+# Install-Module -Name posh-git -Repository PSGallery -Force
+# Install-Module -Name posh-cargo -Repository PSGallery -Force
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 Install-Module -Name Update-AllPSModules -Repository PSGallery -Force
 Install-Module -Name z -Repository PSGallery -Force
