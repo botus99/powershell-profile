@@ -113,7 +113,7 @@ scoop install dockercompletion
 # Powershell modules
 #
 Install-Module -Name PackageManagement -Repository PSGallery -Force
-Install-Module -Name 7Zip4Powershell -Repository PSGallery -Force
+# Install-Module -Name 7Zip4Powershell -Repository PSGallery -Force
 Install-Module -Name NuGet -Repository PSGallery -Force
 Install-Module -Name Pester -Repository PSGallery -Force
 Install-Module -Name Pscx -Repository PSGallery -Force
